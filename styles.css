@@ -1,0 +1,39 @@
+/*Terry Rucker*/
+
+* {margin:0px; box-sizing:borderbox}
+
+nav {
+
+		background-image: linear-gradient(to top left, green, purple);
+		padding: 20px;
+		text-align: center;
+
+	}
+
+nav a{
+		padding: 10px;
+		background-image: linear-gradient( to top right, green, red);
+
+
+	}
+
+nav a:hover {background-image: linear-gradient( to top right, blue, yellow);}
+		li {display: inline-block;}
+
+#daughter {
+		height: 350px;
+		width: auto;
+		margin:auto;
+		background-image: linear-gradient( to top left, gold, pink);
+		display: inline-block;
+	}
+
+div, p {
+		text-align: center;
+
+}
+
+html {
+	height: 100%;
+		background-image: linear-gradient( to top left, green, purple) ;
+}
